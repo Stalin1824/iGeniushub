@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Add click event listener to the menu icon
       menu.addEventListener("click", () => {
         sideNav.style.position = "absolute";
-        sideNav.style.left = '1%';
+        sideNav.style.left = '-1%';
         sideNav.style.transition = "2s"   
         sideNav.style.display = 'flex';
 
