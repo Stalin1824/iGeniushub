@@ -403,6 +403,10 @@ a {
 
 /* media query */
 @media screen and (max-width: 880px) {
+  .head{
+    padding:10px 0px;
+  }
+ 
 
   .head-wrapper>div:nth-child(2) {
     flex-direction: column;
@@ -414,6 +418,7 @@ a {
     width: 50%;
     height: 900px;
     z-index: 5;
+    gap: 40px;
   }
 
 
