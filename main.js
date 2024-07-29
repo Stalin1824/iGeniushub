@@ -18,7 +18,7 @@ function handleMediaQuery(e) {
         toLeft.style.left = "-60%"
         toLeft.style.transition = "1s"
       }
-
+       
     })
 
 
