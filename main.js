@@ -9,7 +9,6 @@ const mediaQuery = window.matchMedia('(max-width: 880px)');
 
 function handleMediaQuery(e) {
 
-
   if (e.matches === true) {
     menuBar.addEventListener("click", () => {
 
