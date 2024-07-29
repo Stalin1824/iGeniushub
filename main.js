@@ -1,4 +1,4 @@
-var toLeft = document.querySelector(".head-wrapper>div:nth-child(2)")
+var toLeft = document.querySelector(".head-wrapper>div:nth-child(2)")  
 var menuBar = document.querySelector(".head-wrapper>div:nth-child(3)")
 var section = document.querySelectorAll(".head-wrapper>div:nth-child(2) >a")
 
