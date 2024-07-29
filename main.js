@@ -37,3 +37,5 @@ handleMediaQuery(mediaQuery);
 
 // Add a listener for changes
 mediaQuery.addEventListener('change', handleMediaQuery)
+
+
