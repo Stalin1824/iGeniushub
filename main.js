@@ -8,7 +8,7 @@ let a = false
 // JS to Change MediaQuery  
 
 function handleMediaQuery(e) {
-  // return bool 0 or 1
+  
 
   if (e.matches === true) {
     menuBar.addEventListener("click", () => {
