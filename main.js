@@ -5,6 +5,8 @@ var section = document.querySelectorAll(".head-wrapper>div:nth-child(2) >a")
 const mediaQuery = window.matchMedia('(max-width: 880px)');
 let a = false
 
+// JS to Change MediaQuery
+
 function handleMediaQuery(e) {
   // return bool 0 or 1
 
