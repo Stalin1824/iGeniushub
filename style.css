@@ -402,15 +402,7 @@ a {
 }
 
 /* media query */
-
-
-
-@media screen and (max-width: 1000px) {
-  .head {
-    padding: 10px 0px;
-  }
-
-
+@media screen and (max-width: 800px) {
   .head-wrapper>div:nth-child(2) {
     flex-direction: column;
     position: absolute;
@@ -423,11 +415,21 @@ a {
     z-index: 5;
     gap: 40px;
   }
-
-
   .head-wrapper>div:nth-child(3) {
     display: flex;
   }
+}
+
+@media screen and (max-width: 1000px) {
+  .head {
+    padding: 10px 0px;
+  }
+
+
+ 
+
+
+  
 
   .apple-wrapper {
     padding: 50px 0px;
